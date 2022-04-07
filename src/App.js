@@ -182,7 +182,7 @@ function App() {
         <h3>Description: File Focus.csv is the original input file with basic information:</h3>
         <h3>Year 2015,Transmission Manual,mileage 50000,fuel type petrol,engine size 2</h3>
         <h3>The rest of the files only modify one parameter of file Focus.csv</h3>
-        <h2>Results(Pounds)</h2>
+        <h2>Results(in British Pounds)</h2>
         <p>{outputFileData}</p>
       </div>
     </div>
