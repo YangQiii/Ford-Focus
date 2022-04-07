@@ -165,7 +165,7 @@ function App() {
       <div className="Input">
         <h1>Ford-Focus Price Prediction</h1>
         <h2>Name:Qi Yang, email:qya@umich.edu</h2>
-        <h3>Input</h3>
+        <h3>Input Description: A .csv file with information: year,mileage(miles),fuel type,transmission,engine size(liters)</h3>
         <label htmlFor="demo-dropdown">Demo: </label>
         <select name="Select Image" id="demo-dropdown" value={selectedDropdownFile} onChange={handleDropdown}>
             <option value="">-- Select Demo File --</option>
@@ -183,7 +183,7 @@ function App() {
         <h2>Year 2015,Transmission Manual,mileage 50000,fuel type petrol,engine size 2</h2>
         <h2>The rest of the files only modify one parameter of file Focus.csv</h2>
         <h3>Results</h3>
-        <p>{outputFileData}</p>
+        <h4>{outputFileData}</h4>
       </div>
     </div>
   );
