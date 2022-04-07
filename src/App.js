@@ -163,7 +163,9 @@ function App() {
   return (
     <div className="App">
       <div className="Input">
-        <h1>Input</h1>
+        <h1>Ford-Focus Price Prediction</h1>
+        <h2>Name:Qi Yang, email:qya@umich.edu</h2>
+        <h3>Input</h3>
         <label htmlFor="demo-dropdown">Demo: </label>
         <select name="Select Image" id="demo-dropdown" value={selectedDropdownFile} onChange={handleDropdown}>
             <option value="">-- Select Demo File --</option>
