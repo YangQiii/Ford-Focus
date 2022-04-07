@@ -179,7 +179,10 @@ function App() {
         <img src={inputImage} alt="" />
       </div>
       <div className="Output">
-        <h1>Results</h1>
+        <h1>Description: File Focus.csv is the original input file, and its basic information is:</h1>
+        <h1>Year 2015,Transmission Manual,mileage 50000,fuel type petrol,engine size 2</h1>
+        <h1>The rest of the files only modify one parameter of file Focus.csv</h1>
+        <h3>Results</h3>
         <p>{outputFileData}</p>
       </div>
     </div>
