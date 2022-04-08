@@ -185,9 +185,11 @@ function App() {
         <h2>Results(in British Pounds)</h2>
         <p>{outputFileData}</p>
       </div>
-      <object data = "HW1.pdf"  type="application/pdf" width="1500" height="1000">
+  <div>
+      <object data = "HW1.pdf"  type="application/pdf" width="150" height="100">
     </object>
-    </div>
+  </div>  
+  </div>
   );
 }
 
