@@ -185,8 +185,6 @@ function App() {
         <h2>Results(in British Pounds)</h2>
         <p>{outputFileData}</p>
       </div>
-      //<object data = "Technical report.pdf"  type="application/pdf" width="750" height="500">
-   // </object> 
   </div>
   );
 }
