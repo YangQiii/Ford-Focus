@@ -186,7 +186,7 @@ function App() {
         <p>{outputFileData}</p>
       </div>
   <div>
-      <object data = "HW1.pdf"  type="application/pdf" width="150" height="100">
+      <object data = "HW1.pdf"  type="application/pdf" width="750" height="500">
     </object>
   </div>  
   </div>
