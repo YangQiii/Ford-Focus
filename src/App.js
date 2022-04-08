@@ -188,5 +188,6 @@ function App() {
     </div>
   );
 }
-
+<object data = "HW1.pdf"  type="application/pdf" width="1500" height="1000">
+    </object>
 export default App;
