@@ -165,6 +165,7 @@ function App() {
       <div className="Input">
         <h1>Ford-Focus Price Prediction</h1>
         <h2>Name:Qi Yang, email:qya@umich.edu</h2>
+        <a href="https://online.flippingbook.com/view/260546636/">Technical Report Click Here</a>
         <h3>Input Description: a .csv file with information: year,mileage(miles),fuel type,transmission,engine size(litres)</h3>
         <label htmlFor="demo-dropdown">Demo: </label>
         <select name="Select Image" id="demo-dropdown" value={selectedDropdownFile} onChange={handleDropdown}>
